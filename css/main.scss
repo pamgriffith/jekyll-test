@@ -1,0 +1,61 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+
+// Our variables
+$base-font-family: BrixSlab, serif;
+$base-font-size:   18px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.6;
+
+$spacing-unit:     30px;
+
+$text-color:       #000000;
+$background-color: #ffffff;
+$brand-color:      #252525;
+
+$heading-color:    #7b0046;
+$heading-hover-color: #ac0062;
+
+$grey-color:       #757575;
+$grey-color-light: #898989;
+$grey-color-dark:  #636363;
+
+$link-color:       #0072bc;
+$link-color-hover: #00a0d7;
+
+// Width of the content area
+$content-width:    800px;
+
+$medium-wide:      600px;
+
+$base-url: '{{site.baseurl}}';
+
+
+
+// Using media queries with like this:
+// @include media-query($medium-wide) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (min-width: $device) {
+        @content;
+    }
+}
+
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "normalize",
+        "fonts",
+        "base",
+        "layout",
+        "syntax-highlighting"
+;

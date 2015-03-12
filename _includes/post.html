@@ -1,0 +1,52 @@
+<article class="post">
+
+  <header class="entry-header">
+    <h1 class="entry-title">
+        {% if include.single == true %}
+        {{ include.post.title }}
+        {% else %}
+        <a href="{{ include.post.url | prepend: site.baseurl }}">{{ include.post.title }}</a>
+        {% endif %}
+    </h1>
+    <time class="entry-date" datetime="{{ include.post.date | date: "%F" }}">{{ include.post.date | date: "%B %-d, %Y" }}</time>
+  </header>
+
+  <div class="entry-content">
+    {% if include.single == true %}
+    {{ content }}
+    {% else %}
+    {{ include.post.excerpt }}
+    {% endif %}
+  </div>
+
+  <footer class="entry-meta">
+    {% assign tags_content = '' %}
+    {% if include.post.tags.size > 0 %}
+        {% for tag in include.post.tags %}
+            {% if tag %}
+                {% capture tags_content_temp %}{{ tags_content }}<a href="/blog/tag/{{ tag }}/">{{ tag }}</a>{% if forloop.rindex0 > 1 %}{%if include.post.tags.size > 2 %}, {% endif %}{% elsif forloop.rindex0 == 1 %}{% if include.post.tags.size > 2 %}, and {% elsif include.post.tags.size == 2 %} and {% endif %}{% endif %}{% endcapture %}
+                {% assign tags_content = tags_content_temp %}
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+
+    {% assign categories_content = '' %}
+    {% if include.post.categories.size > 0 %}
+        {% for tag in include.post.categories %}
+            {% if tag %}
+                {% capture categories_content_temp %}{{ categories_content }}<a href="/blog/category/{{ tag }}/">{{ tag }}</a>{% if forloop.rindex0 > 1 %}{%if include.post.categories.size > 2 %}, {% endif %}{% elsif forloop.rindex0 == 1 %}{% if include.post.categories.size > 2 %}, and {% elsif include.post.categories.size == 2 %} and {% endif %}{% endif %}{% endcapture %}
+                {% assign categories_content = categories_content_temp %}
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+
+    {% if include.post.categories.size > 0 and include.post.tags.size > 0 %}
+    Posted in {{ categories_content }} and tagged {{ tags_content }}.
+    {% elsif include.post.categories.size > 0 %}
+    Posted in {{ categories_content }}.
+    {% elsif include.post.tags.size > 0 %}
+    Tagged {{ tags_content }}.
+    {% endif %}
+  </footer>
+
+</article>

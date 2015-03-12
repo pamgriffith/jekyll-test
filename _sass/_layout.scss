@@ -1,0 +1,41 @@
+/**
+ * Clearfix
+ */
+%clearfix {
+
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+%vertical-rhythm {
+    margin-bottom: $spacing-unit / 2;
+}
+
+.nerf {
+
+    .nerf {
+
+        // Gaps between nav items, but not on the first one
+        &:not(:first-child) {
+            margin-left: 20px;
+        }
+    }
+
+    @include media-query($medium-wide) {
+    }
+}
+
+
+
+/**
+ * Site footer
+ */
+.nerf {
+    padding: $spacing-unit 0;
+}
+.nerf {
+    margin-left: -$spacing-unit / 2;
+    @extend %clearfix;
+}
