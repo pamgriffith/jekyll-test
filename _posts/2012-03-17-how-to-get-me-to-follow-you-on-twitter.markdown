@@ -1,0 +1,33 @@
+---
+layout: post
+status: publish
+published: true
+title: How to get me to actually follow you on Twitter
+author:
+  display_name: Pam Griffith
+  login: Pam
+  email: pam@pamgriffith.net
+  url: http://www.pamgriffith.net
+author_login: Pam
+author_email: pam@pamgriffith.net
+author_url: http://www.pamgriffith.net
+wordpress_id: 478
+wordpress_url: http://www.pamgriffith.net/?p=478
+date: !binary |-
+  MjAxMi0wMy0xNyAyMDozNjozMSAtMDQwMA==
+date_gmt: !binary |-
+  MjAxMi0wMy0xOCAwMzozNjozMSAtMDQwMA==
+categories:
+- Copywriting
+tags:
+- Marketing
+- Social Media
+comments: []
+---
+<p>To those companies that follow lots and lots of people in an attempt to get people to follow them back: here are some tips on how to get me more interested in following you, or at least to seem a little bit less sleazy and desperate:</p>
+<ul>
+<li><strong>Be relevant to my location or interests</strong>. I'm looking at you, roofing company in San Diego--I don't have a house (which, to be fair, may be a bit difficult to tell), I no longer live in San Diego (that's right in my profile), and I never, ever talk about home improvement projects.</li>
+<li><strong>Talk about something besides yourself</strong>. If you're fishing for followers like this you're going to get people who aren't necessarily interested in you but are interested in the general field that you're in. Talk about things that are related to what you do that are interesting to the people you want to attract. For instance, the aforementioned roofing company might remind people about routine gutter cleaning or provide tips on safe ways to install things on the roof alongside promotions of their own products and services.</li>
+<li><strong>Interact with your followers</strong>. Even if you're not willing to talk about anything but your own products, you can still prove that there's an actual person behind the account and not just press releases, someone I could ask for advice or details about your products if I find them sufficiently interesting. Also, if you have a link to your website or a press release in every single tweet you look like a spammer; this is a good way to break those up.</li>
+<li><strong>Don't follow me more than once</strong>. If I didn't follow you the first time I'm sure not going to do it if you keep bugging me.</li>
+</ul>

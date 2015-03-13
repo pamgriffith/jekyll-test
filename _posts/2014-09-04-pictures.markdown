@@ -1,0 +1,29 @@
+---
+layout: post
+status: publish
+published: true
+title: Pictures
+author:
+  display_name: Pam Griffith
+  login: Pam
+  email: pam@pamgriffith.net
+  url: http://www.pamgriffith.net
+author_login: Pam
+author_email: pam@pamgriffith.net
+author_url: http://www.pamgriffith.net
+wordpress_id: 690
+wordpress_url: http://www.pamgriffith.net/?p=690
+date: !binary |-
+  MjAxNC0wOS0wNCAxMjoyODozOSAtMDQwMA==
+date_gmt: !binary |-
+  MjAxNC0wOS0wNCAxOToyODozOSAtMDQwMA==
+categories:
+- Personal
+tags: []
+comments: []
+---
+<p>Finally got around to uploading some pictures from the last year.</p>
+<h2>Niagara Falls</h2>
+<p>[AFG_gallery id='1']</p>
+<h2>Chicago</h2>
+<p>[AFG_gallery id='2']</p>

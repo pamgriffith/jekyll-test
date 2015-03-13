@@ -1,0 +1,23 @@
+---
+layout: nav_menu_item
+status: publish
+published: true
+author:
+  display_name: Pam Griffith
+  login: Pam
+  email: pam@pamgriffith.net
+  url: http://www.pamgriffith.net
+author_login: Pam
+author_email: pam@pamgriffith.net
+author_url: http://www.pamgriffith.net
+wordpress_id: 591
+wordpress_url: http://www.pamgriffith.net/?p=591
+date: !binary |-
+  MjAxMi0wNS0yMCAxOTozODoxOCAtMDQwMA==
+date_gmt: !binary |-
+  MjAxMi0wNS0yMSAwMjozODoxOCAtMDQwMA==
+categories: []
+tags: []
+comments: []
+---
+
