@@ -1,13 +1,21 @@
 ---
 layout: default
 ---
-<h1>Archive of posts from {{ page.date | date: "%Y" }}</h1>
+<article class="archive">
 
-<ul class="posts">
-{% for post in page.posts %}
-  <li>
-    <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-  </li>
-{% endfor %}
-</ul>
+	<header class="entry-header">
+		<h1 class="entry-title">Archive of posts from {{ page.date | date: "%Y" }}</h1>
+	</header>
+
+	<div class="entry-content">
+		<ul>
+		{% for post in page.posts %}
+			<li>
+				<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+				<time class="entry-date" datetime="{{ post.date | date: "%F" }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+			</li>
+		{% endfor %}
+		</ul>
+	</div>
+
+</article>
