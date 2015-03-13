@@ -10,6 +10,8 @@ url: "http://pamgriffith.net" # the base hostname & protocol for your site
 twitter_username: haloedrain
 github_username:  pamgriffith
 
+encoding: utf-8
+
 gems:
   - jekyll-archives
 

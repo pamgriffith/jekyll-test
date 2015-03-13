@@ -6,13 +6,4 @@ layout: default
   {% include post.html post=post single=false %}
 {% endfor %}
 
-<!-- Pagination links -->
-<nav role="navigation" class="pagination">
-  <h3 class="assistive-text">Post navigation</h3>
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="nav-older">← Older posts</a>
-  {% endif %}
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.next_page_path }}" class="nav-newer">← Older posts</a>
-  {% endif %}
-</nav>
+{% include pagination.html %}

@@ -1,11 +1,8 @@
-/**
- * Clearfix
- */
 %clearfix {
-
     &:after {
-        content: "";
-        display: table;
+        content: ' ';
+        display: block;
+        line-height: 0;
         clear: both;
     }
 }
@@ -13,29 +10,122 @@
     margin-bottom: $spacing-unit / 2;
 }
 
-.nerf {
+body {
+    margin: 0 auto;
+    padding: 18px;
+    padding: 1rem;
 
-    .nerf {
+    @include media-query($medium-wide) {
+        max-width: 770px;
+        max-width: 42.77777777777778rem;
+    }
 
-        // Gaps between nav items, but not on the first one
-        &:not(:first-child) {
-            margin-left: 20px;
+    @extend %clearfix;
+}
+.wrapper {
+    margin-top: 1em;
+    
+    @include media-query($medium-wide) {
+        float: right;
+        width: 68.83116883116883%; /* 530/770 */
+        margin-top: 0;
+    }
+
+    @extend %clearfix;
+}
+.site-header {
+    text-align: center;
+
+    @include media-query($medium-wide) {
+        float: left;
+        width: 27.27272727272727%; /* 210/ 770 */
+        text-align: right;
+        padding: 0;
+    }
+
+    h1 {
+        font-size: 24px;
+        font-size: 1.33333rem;
+        line-height: 36px;
+        line-height: 2rem;
+        margin: 0;
+    }
+}
+
+.site-nav {
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0 0 1rem 0;
+        border-bottom: $separator;
+        @include media-query($medium-wide) {
+            line-height: 2;
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+    }
+    li {
+        margin: 0 .5em;
+        padding: 0;
+        display: inline-block;
+        @include media-query($medium-wide) {
+            margin: 0;
+            display: block;
+        }
+    }
+    a {
+        text-decoration: none;
+    }
+    a.current {
+        color: $grey-color-dark;
+    }
+}
+
+article {
+    border-bottom: $separator;
+    padding-bottom: 36px;
+    padding-bottom: 2rem;
+    margin-bottom: 36px;
+    margin-bottom: 2rem;
+
+    h1 {
+        margin-bottom: 18px;
+        margin-bottom: 1rem;
+    }
+
+    .entry-date {
+        color: $grey-color-light;
+    }
+
+    .entry-header {
+        margin-bottom: 18px;
+        margin-bottom: 1rem;
+    }
+
+    .entry-meta {
+        color: $grey-color-light;
+    }
+
+    &:first-child{
+        h1 {
+            margin-top: 0;
         }
     }
 
-    @include media-query($medium-wide) {
+    @extend %clearfix;
+}
+
+.pagination {
+    margin-bottom: 36px;
+    margin-bottom: 2rem;
+
+    .nav-older {
+        float: left;
     }
-}
 
+    .nav-newer {
+        float: right;
+    }
 
-
-/**
- * Site footer
- */
-.nerf {
-    padding: $spacing-unit 0;
-}
-.nerf {
-    margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }

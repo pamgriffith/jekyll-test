@@ -2,13 +2,13 @@
   href: "/"
 
 - title: "Résumé"
-  href: "/resume"
+  href: "/resume/"
 
 - title: "About"
-  href: "/about"
+  href: "/about/"
 
 - title: "Contact"
-  href: "/contact"
+  href: "/contact/"
 
 # - title: "subcategory example"
 #   href: "/cat"

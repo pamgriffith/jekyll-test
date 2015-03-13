@@ -20,9 +20,9 @@ $brand-color:      #252525;
 $heading-color:    #7b0046;
 $heading-hover-color: #ac0062;
 
-$grey-color:       #757575;
 $grey-color-light: #898989;
 $grey-color-dark:  #636363;
+$separator-color:  #ededed;
 
 $link-color:       #0072bc;
 $link-color-hover: #00a0d7;
@@ -33,6 +33,8 @@ $content-width:    800px;
 $medium-wide:      600px;
 
 $base-url: '{{site.baseurl}}';
+
+$separator: 4px double $separator-color;
 
 
 

@@ -5,9 +5,10 @@
   <nav class="site-nav" role="navigation">
     <a class="assistive-text" href="#content" title="Skip to content">Skip to content</a>
     <ul>
-      {% for page in site.data.nav %}
+      {% assign current_page = page.url|replace:'index.html','' %}
+      {% for link in site.data.nav %}
         <li>
-          <a href="{{ site.baseurl }}{{ page.href }}">{{ page.title }}</a>
+          <a href="{{ site.baseurl }}{{ link.href }}" {% if current_page == link.href %}class="current"{% endif %}>{{ link.title }}</a>
         </li>
       {% endfor %}
     </ul>
