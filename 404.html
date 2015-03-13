@@ -3,25 +3,31 @@ layout: page
 title: Page Not Found
 ---
 
-<p>The page you're looking for isn't here. Maybe you want one of these?</p>
-
-<h2>Tags</h2>
-<ul class="tags">
-{% for tag in site.tags %}
-  {% assign t = tag | first %}
-  {% assign posts = tag | last %}
-  <li><a href="{{site.baseurl}}/tag/{{t}}">{{t}}</a> has {{ posts | size }} posts</li>
-{% endfor %}
-</ul>
-
-<h2>Categories</h2>
-<ul class="tags">
-{% for tag in site.categories %}
-  {% assign t = tag | first %}
-  {% assign posts = tag | last %}
-  <li><a href="{{site.baseurl}}/category/{{t}}">{{t}}</a> has {{ posts | size }} posts</li>
-{% endfor %}
-</ul>
+<p>The page you're looking for isn't here. Maybe one of these will help?</p>
 
 <h2>Search</h2>
-<iframe src="http://duckduckgo.com/search.html?width=472&site=pamgriffith.net&prefill=Search DuckDuckGo" style="overflow:hidden;margin:0;padding:0;width:530px;height:40px;" frameborder="0"></iframe>
+<iframe id="search-iframe" src="http://duckduckgo.com/search.html?site=pamgriffith.net&prefill=Search&width=auto" style="overflow:hidden;margin:0;padding:0;width:530px;height:40px;" frameborder="0"></iframe>
+
+<div class="columns">
+	<div class="half-col left-col">
+		<h2>Categories</h2>
+		<ul class="tag-list">
+		{% for tag in site.categories %}
+			{% assign t = tag | first %}
+			{% assign posts = tag | last %}
+			<li><a href="{{site.baseurl}}/blog/category/{{t}}">{{t}}</a></li>
+		{% endfor %}
+		</ul>
+	</div>
+
+	<div class="half-col right-col">
+		<h2>Tags</h2>
+		<ul class="tag-list">
+		{% for tag in site.tags %}
+			{% assign t = tag | first %}
+			{% assign posts = tag | last %}
+			<li><a href="{{site.baseurl}}/blog/tag/{{t}}">{{t}}</a></li>
+		{% endfor %}
+		</ul>
+	</div>
+</div>

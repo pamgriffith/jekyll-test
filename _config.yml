@@ -11,6 +11,7 @@ twitter_username: haloedrain
 github_username:  pamgriffith
 
 encoding: utf-8
+permalink: "/blog/:title"
 
 gems:
   - jekyll-archives
@@ -33,7 +34,7 @@ jekyll-archives:
     tag: 'tag-cat-archive'
     category: 'tag-cat-archive'
   permalinks:
-    year: '/blog/:year/'
+    year: '/blog/archive/:year/'
     # month: '/:year/:month/'
     # day: '/:year/:month/:day/'
     tag: '/blog/tag/:name/'
