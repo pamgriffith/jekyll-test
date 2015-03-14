@@ -20,12 +20,12 @@ date_gmt: !binary |-
 categories:
 - Conference Notes
 tags:
-- IA Summit 2012
+- IAS12
 - Cross-Channel Experiences
 - Context
 comments: []
 ---
-<p><em>This is part of a series of notes from the Information Architecture Summit from 2012. All posts will be tagged <a href="http://www.pamgriffith.net/blog/tag/ias12">ias12</a>. This talk was presented by Emily Wengert (<a href="https://twitter.com/#!/wallowmuddy">@wallowmuddy</a> on Twitter).</em></p>
+<p><em>This is part of a series of notes from the Information Architecture Summit from 2012. All posts will be tagged <a href="{{site.base_url}}/blog/tag/ias12">ias12</a>. This talk was presented by Emily Wengert (<a href="https://twitter.com/#!/wallowmuddy">@wallowmuddy</a> on Twitter).</em></p>
 <ul>
 <li>2002 had simple world--intranets and websites. Since then have added phones, tablets, devices in cars, stores, augmented reality--just 10 years later: "I think we're all in trouble. I don't think we can keep up with this much longer."</li>
 <li>How we approach new channels now (slow ramp-up to understanding the channel)
@@ -112,5 +112,5 @@ comments: []
 </ul>
 </li>
 </ul>
-<h5>Key take-home points for me:</h5>
+<h2>Key take-home points for me:</h2>
 <p>People have different priorities, attention, and various limitations based on where they are and who is around them. Make sure to consider that when creating experiences for multiple channels. The context is more important than the specific limitations of the devices that they are using, so even though lots of new devices are coming out that we haven't even though of yet we can get up to speed faster if we consider in what context the experience we have in mind is going to happen.</p>

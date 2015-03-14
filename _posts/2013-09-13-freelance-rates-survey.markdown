@@ -18,7 +18,7 @@ date: !binary |-
 date_gmt: !binary |-
   MjAxMy0wOS0xMyAxOToyNjo1MCAtMDQwMA==
 categories:
-- Uncategorized
+- Freelancing
 tags: []
 comments: []
 ---

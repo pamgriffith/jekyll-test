@@ -83,7 +83,7 @@ h6 {
     font-size: 0.7777777778rem;
 }
 
-p, embed, object, video, iframe, code, img, dl, ol, ul, blockquote, table {
+p, embed, object, video, iframe, code, dl, ol, ul, blockquote, table {
     margin: 0 0 24px;
     margin: 0 0 1.3333333333rem;
 }
@@ -99,5 +99,33 @@ a {
 
     &:hover {
         color: $link-color-hover;
+    }
+}
+
+img {
+    max-width: 100%;
+}
+
+table {
+    font-size: 14px;
+    font-size: 0.7777777778rem;
+}
+thead {
+    border-bottom: 1px solid $separator-color;
+    th {
+        vertical-align: bottom;
+        text-align: left;
+        padding: 6px;
+        padding: .3333333333rem;
+    }
+}
+tbody {
+    tr {
+        border-bottom: 1px dotted $separator-color;
+    }
+    td, th {
+        vertical-align: top;
+        padding: 6px;
+        padding: .3333333333rem;
     }
 }

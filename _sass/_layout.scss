@@ -106,6 +106,14 @@ article {
         color: $grey-color-light;
     }
 
+    table {
+        /* give tables more room */
+        @include media-query($medium-wide) {
+            margin-left: -45.283%; /* 240/530, or width of left col */
+            width: 145.283%; /* 770/530, or full page width */
+        }
+    }
+
     &:first-child{
         h1 {
             margin-top: 0;
@@ -161,7 +169,9 @@ ul.tag-list {
     padding: 0;
 
     li {
-        margin: 0;
+        margin: 0 0 18px 0;
+        margin: 0 0 1rem 0;
+        line-height: 1.4;
         padding: 0;
     }
 

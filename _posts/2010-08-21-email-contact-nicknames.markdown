@@ -18,7 +18,6 @@ date: !binary |-
 date_gmt: !binary |-
   MjAxMC0wOC0yMiAwNjo0NTo0MSAtMDQwMA==
 categories:
-- Uncategorized
 - Design Critique
 tags:
 - People are Complicated

@@ -20,7 +20,7 @@ gems:
 markdown: kramdown
 
 # Pagination
-paginate: 2
+paginate: 10
 paginate_path: "/page/:num/"
 
 # Archive pages

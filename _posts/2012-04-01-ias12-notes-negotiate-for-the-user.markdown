@@ -21,11 +21,11 @@ categories:
 - Conference Notes
 - Design Process
 tags:
-- IA Summit 2012
-- negotiation
+- IAS12
+- Negotiation
 comments: []
 ---
-<p><em>This is part of a series of notes from the Information Architecture Summit from 2012. All posts will be tagged <a href="http://www.pamgriffith.net/blog/tag/ias12">ias12</a>. This talk was presented by Carol Smith (<a href="https://twitter.com/#!/carologic">@carologic</a> on Twitter). The slides are available on <a href="http://www.slideshare.net/carologic/empower-yourself-negotiate-for-the-user">Slideshare</a>.</em></p>
+<p><em>This is part of a series of notes from the Information Architecture Summit from 2012. All posts will be tagged <a href="{{site.base_url}}/blog/tag/ias12">ias12</a>. This talk was presented by Carol Smith (<a href="https://twitter.com/#!/carologic">@carologic</a> on Twitter). The slides are available on <a href="http://www.slideshare.net/carologic/empower-yourself-negotiate-for-the-user">Slideshare</a>.</em></p>
 <ul>
 <li>Even if you have the best design you won't get a good user experience if you can't negotiate and get it to happen</li>
 <li>You need need confidence in negotiation, and the best way to get it is to have a Best Alternative To Negotiation Agreement (BATNA): knowing what your course of action will be if negotiation fails (not the same as a walk-away point) gives you
@@ -64,5 +64,5 @@ comments: []
 </li>
 <li>Audience question: her boss's BATNA is "I said to do it so do it." Speaker says "I always say that when people actually see usability tests it turns their world upside-down"--make advocates in your organization, maybe in your own time (e.g. organize brown-bags and other events)</li>
 </ul>
-<h5>Key take-home points for me:</h5>
+<h2>Key take-home points for me:</h2>
 <p>Having a clear picture of what I will do if negotiation completely fails sounds like a great idea and is something I should remember to do. And I should really read that Getting to YES book.</p>

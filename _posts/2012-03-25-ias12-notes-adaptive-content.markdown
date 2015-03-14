@@ -21,12 +21,12 @@ categories:
 - Copywriting
 - Conference Notes
 tags:
-- IA Summit 2012
+- IAS12
 - CMS
 - Metadata
 comments: []
 ---
-<p><em>This is part of a series of notes from the Information Architecture Summit from 2012. All posts will be tagged <a href="http://www.pamgriffith.net/blog/tag/ias12">ias12</a>. This talk was presented by Karen McGrane (<a href="https://twitter.com/#!/@karenmcgrane">@karenmcgrane</a> on Twitter). Slides are on <a href="http://www.slideshare.net/KMcGrane/adapting-ourselves-to-adaptive-content-12133365">Slideshare</a>.</em></p>
+<p><em>This is part of a series of notes from the Information Architecture Summit from 2012. All posts will be tagged <a href="{{site.base_url}}/blog/tag/ias12">ias12</a>. This talk was presented by Karen McGrane (<a href="https://twitter.com/#!/@karenmcgrane">@karenmcgrane</a> on Twitter). Slides are on <a href="http://www.slideshare.net/KMcGrane/adapting-ourselves-to-adaptive-content-12133365">Slideshare</a>.</em></p>
 <ul>
 <li>We need structured content to adapt to multi device future</li>
 <li>Publishers are like a bellweather or a canary in a coal mine. They are forced to adapt to content problems more quickly than other companies</li>
@@ -144,5 +144,5 @@ comments: []
 </ul>
 </li>
 </ul>
-<h5>Key take-home points for me:</h5>
+<h2>Key take-home points for me:</h2>
 <p>Create packages of content including content chunks like title, short blurb, longer blurb, full text, image, and other metadata that lets you pick and choose what you want to display across different devices and different designs. We can use the metadata for other things too, like generating personalized pages full of content of interest to a specific user. Mobile is a wedge to get that to happen, but we need better tools too, the CMS workflow as it stands is not good enough.</p>

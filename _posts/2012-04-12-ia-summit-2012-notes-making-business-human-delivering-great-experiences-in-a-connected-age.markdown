@@ -22,13 +22,13 @@ categories:
 - Conference Notes
 - Design Process
 tags:
-- IA Summit 2012
+- IAS12
 - Trust
 - Brand
 - Customer Service
 comments: []
 ---
-<p><em>This is part of a series of notes from the Information Architecture Summit from 2012. All posts will be tagged <a href="http://www.pamgriffith.net/blog/tag/ias12">ias12</a>. This talk was presented by Peter Merholz (<a href="https://twitter.com/#!/peterme">@peterme</a> on Twitter). Slides are available on <a href="http://www.slideshare.net/peterme/making-business-human-delivering-great-experiences-in-a-connected-age">Slideshare</a>.</em></p>
+<p><em>This is part of a series of notes from the Information Architecture Summit from 2012. All posts will be tagged <a href="{{site.base_url}}/blog/tag/ias12">ias12</a>. This talk was presented by Peter Merholz (<a href="https://twitter.com/#!/peterme">@peterme</a> on Twitter). Slides are available on <a href="http://www.slideshare.net/peterme/making-business-human-delivering-great-experiences-in-a-connected-age">Slideshare</a>.</em></p>
 <ul>
 <li>"Closing the delivery gap"--90% of polled firms thought they were customer focused, but only 8% of their customers agreed</li>
 <li>Forrester's 2012 Custemer Experience Index showed that more than half of experience are not good--Why? tech is more immediate, accessible, distributed, people are surrounded by better design</li>
@@ -85,6 +85,6 @@ comments: []
 </li>
 <li>How can you make your organizations more human: be more social, playful, respectful, emotional, interdependent, sensorial, creative, trusting, physical</li>
 </ul>
-<h5>Key take-home points for me:</h5>
+<h2>Key take-home points for me:</h2>
 <p>I liked the examples of Southwest and Nordstrom. It's something I already knew from my own community management and customer service work, but it's good to hear the reminder every now and then. It's an argument I anticipate having soon, too (right after I convince them that yes, they really do need moderation...).</p>
-<p>I also liked the point that the drop in Netflix's stock was the value of empathy, I hadn't thought about that before. I'm already on board with the need to understand and empathise with my users, of course, but you don't often get such a dramatic demonstration of the monetary value. Perhaps <a href="/blog/ias12-notes-value-sensitive-design">value sensitive design</a> would be useful in making sure this doesn't happen?</p>
+<p>I also liked the point that the drop in Netflix's stock was the value of empathy, I hadn't thought about that before. I'm already on board with the need to understand and empathise with my users, of course, but you don't often get such a dramatic demonstration of the monetary value. Perhaps <a href="{{site.base_url}}/blog/ias12-notes-value-sensitive-design">value sensitive design</a> would be useful in making sure this doesn't happen?</p>

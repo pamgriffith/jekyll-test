@@ -20,10 +20,10 @@ date_gmt: !binary |-
 categories:
 - Conference Notes
 tags:
-- ias13
+- IAS13
 comments: []
 ---
-<p><em>This is part of a series of notes from the Information Architecture Summit from 2013. All posts will be tagged <a href="http://www.pamgriffith.net/blog/tag/ias13">ias13</a>. This talk was presented by Adam Polansky.</em></p>
+<p><em>This is part of a series of notes from the Information Architecture Summit from 2013. All posts will be tagged <a href="{{site.base_url}}/blog/tag/ias13">IAS13</a>. This talk was presented by Adam Polansky.</em></p>
 <div>
 <div>
 <ul>

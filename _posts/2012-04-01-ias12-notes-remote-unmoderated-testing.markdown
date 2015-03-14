@@ -21,7 +21,7 @@ categories:
 - Conference Notes
 - Usability Testing
 tags:
-- IA Summit 2012
+- IAS12
 - Remote Testing
 comments:
 - id: 7545
@@ -48,7 +48,7 @@ comments:
   content: Good to know! I don't think I had that one on my list of testing sites
     to try, definitely adding it.
 ---
-<p><em>This is part of a series of notes from the Information Architecture Summit from 2012. All posts will be tagged <a href="http://www.pamgriffith.net/blog/tag/ias12">ias12</a>. This talk was presented by Inge De Bleecker (<a href="https://twitter.com/#!/ingedebleecker">@ingedebleecker</a> on Twitter). The slides are available on <a href="http://www.slideshare.net/ingedebleecker/crowdsourced-remote-unmoderated-usability-testing">Slideshare</a>.</em></p>
+<p><em>This is part of a series of notes from the Information Architecture Summit from 2012. All posts will be tagged <a href="{{site.base_url}}/blog/tag/ias12">ias12</a>. This talk was presented by Inge De Bleecker (<a href="https://twitter.com/#!/ingedebleecker">@ingedebleecker</a> on Twitter). The slides are available on <a href="http://www.slideshare.net/ingedebleecker/crowdsourced-remote-unmoderated-usability-testing">Slideshare</a>.</em></p>
 <ul>
 <li>Remote usability testing usually has a participant and a moderator in the same session with screen sharing and audio, moderator can ask participant to complete task and ask clarifying questions</li>
 <li>Unmoderated--participant and moderator not sharing session, you need online means to provide tasks to the participant</li>
@@ -100,5 +100,5 @@ comments:
 <li>Can use for tests in a language that the moderator does not speak and use translator</li>
 <li>At least 10 or often 15-20 participants per profile (bumped up from 8 for lab test)</li>
 </ul>
-<h5>Key take-home points for me:</h5>
+<h2>Key take-home points for me:</h2>
 <p>I just recently read Nate Bolt's <a href="http://www.rosenfeldmedia.com/books/remote-research/">Remote Research</a> (highly recommended, btw) and I have been wanting to put some of that into use. What was most interesting to me about this talk was that she goes one step further, to say that yes, you can have unmoderated tests that mirror the moderated ones, with questions in some external tool like Survey Monkey. That loses even more of the ability to see what the participant is thinking, but it might be something worth trying out while I'm trying out other remote research techniques.</p>

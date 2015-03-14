@@ -23,7 +23,7 @@ tags:
 - Remote Testing
 comments: []
 ---
-<p>As <a title="IA Summit 2012 Notes: Crowdsourced Remote Unmoderated Usability Testing" href="http://www.pamgriffith.net/blog/ias12-notes-remote-unmoderated-testing">previously mentioned</a>, I've been wanting to start doing remote testing, so I put together this table on features offered by the various tools that are out there. I figured it might be handy for others, too, so here you go. I haven't used any of them except for Userlytics (which I do like), so these aren't endorsements, just things I've found.</p>
+<p>As <a href="{% post_url 2012-04-01-ias12-notes-remote-unmoderated-testing %}">previously mentioned</a>, I've been wanting to start doing remote testing, so I put together this table on features offered by the various tools that are out there. I figured it might be handy for others, too, so here you go. I haven't used any of them except for Userlytics (which I do like), so these aren't endorsements, just things I've found.</p>
 <p>All of these tools are focused on testing mockups and live sites, which is what I'm most interested in right now.</p>
 <table>
 <thead>

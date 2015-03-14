@@ -22,12 +22,12 @@ categories:
 - Conference Notes
 - Design Process
 tags:
-- IA Summit 2012
+- IAS12
 - Cross-Channel Experiences
 - Developing World
 comments: []
 ---
-<p><em>This is part of a series of notes from the Information Architecture Summit from 2012. All posts will be tagged <a href="http://www.pamgriffith.net/blog/tag/ias12">ias12</a>. This talk was presented by Franco Papeschi (<a href="https://twitter.com/#!/bobbywatson">@bobbywatson</a> on Twitter). Slides are available on <a href="http://www.slideshare.net/bobbywatson/a-different-grid-multichannel-service-design-the-african-way">Slideshare</a>.<br />
+<p><em>This is part of a series of notes from the Information Architecture Summit from 2012. All posts will be tagged <a href="{{site.base_url}}/blog/tag/ias12">ias12</a>. This talk was presented by Franco Papeschi (<a href="https://twitter.com/#!/bobbywatson">@bobbywatson</a> on Twitter). Slides are available on <a href="http://www.slideshare.net/bobbywatson/a-different-grid-multichannel-service-design-the-african-way">Slideshare</a>.<br />
 </em></p>
 <ul>
 <li>GDP growth in sub-saharan africa has been much more positive than US or Europe in the past 5 years, majority of population is becoming middle class: there is a technological and cultural renaissance in Africa, but it's different than the technological revolution in the US and Europe
@@ -87,5 +87,5 @@ comments: []
 </li>
 <li>Tech shapes culture, culture shapes technology: need to foster both directions, see how tech is changed by culture</li>
 </ul>
-<h5>Key take-home points for me:</h5>
+<h2>Key take-home points for me:</h2>
 <p>I loved hearing about familiar techniques solving very different problems and even solving the same problem in two different parts of Africa very differently based on cultural context. It's a strong reminder to research existing practices and keep them in mind when introducing something new to make sure that it's accepted. I also loved the point about the Esoko agents changing from being necessary infrastructure to a key touchpoint&emdash;another reminder to pay attention to what people are doing after a solution is introduced and evolve with evolving practices!</p>

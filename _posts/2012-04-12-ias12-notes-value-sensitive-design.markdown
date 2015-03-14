@@ -21,10 +21,10 @@ categories:
 - Conference Notes
 - Design Process
 tags:
-- IA Summit 2012
+- IAS12
 comments: []
 ---
-<p><em>This is part of a series of notes from the Information Architecture Summit from 2012. All posts will be tagged <a href="http://www.pamgriffith.net/blog/tag/ias12">ias12</a>. This talk was presented by Katey Deeny (<a href="https://twitter.com/#!/followsprocess">@followsprocess</a> on Twitter). Slides are available on <a href="http://www.slideshare.net/kateydeeny/applying-value-sensitive-design-principles-to-user-engagement">Slideshare</a>.</em></p>
+<p><em>This is part of a series of notes from the Information Architecture Summit from 2012. All posts will be tagged <a href="{{site.base_url}}/blog/tag/ias12">ias12</a>. This talk was presented by Katey Deeny (<a href="https://twitter.com/#!/followsprocess">@followsprocess</a> on Twitter). Slides are available on <a href="http://www.slideshare.net/kateydeeny/applying-value-sensitive-design-principles-to-user-engagement">Slideshare</a>.</em></p>
 <ul>
 <li>See <a href="http://vsdesign.org/">vsdesign.org</a> for more on value-sensitive design</li>
 <li>Value-sensitive design is not applied a lot in corporate or business environment, though it has been for non-profits and academia</li>
@@ -111,5 +111,5 @@ comments: []
 </ul>
 </li>
 </ul>
-<h5>Key take-home Points for me:</h5>
+<h2>Key take-home Points for me:</h2>
 <p>I hadn't really heard anything about value-sensitive design, so this is basically an all-new method for me. It can be tricky balancing different stakeholder interests, this method seems like it might help. It also seems like this process should be part of creating anything you want people to really have an emotional connection to. I will have to try it out.</p>

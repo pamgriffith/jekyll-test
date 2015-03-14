@@ -21,7 +21,7 @@ categories:
 - Conference Notes
 - Design Process
 tags:
-- IA Summit 2012
+- IAS12
 - Deliverables
 comments:
 - id: 9333
@@ -35,7 +35,7 @@ comments:
   content: thanks for the write up and i agree, wireframes don't yet allow a way of
     developing that emotional interaction which underlines rhythm and flow.
 ---
-<p><em>This is part of a series of notes from the Information Architecture Summit from 2012. All posts will be tagged <a href="http://www.pamgriffith.net/blog/tag/ias12">ias12</a>. This talk was presented by Peter Stahl (<a href="https://twitter.com/#!/pstahl">@pstahl</a> on Twitter). A reduced version of the slides is available on <a href="http://speakerdeck.com/u/pstahl/p/rhythm-and-flow">Speaker Deck</a>.</em></p>
+<p><em>This is part of a series of notes from the Information Architecture Summit from 2012. All posts will be tagged <a href="{{site.base_url}}/blog/tag/ias12">ias12</a>. This talk was presented by Peter Stahl (<a href="https://twitter.com/#!/pstahl">@pstahl</a> on Twitter). A reduced version of the slides is available on <a href="http://speakerdeck.com/u/pstahl/p/rhythm-and-flow">Speaker Deck</a>.</em></p>
 <ul>
 <li>Tools and processes for static screens came out of print media and architecture, but user experiences do not sit still anymore. We need to adopt vocabulary and methods that support desiging experiences over time.</li>
 <li>Interactive rhythm--interactions with the object form a particular repetitive pattern, e.g. drums, channel surfing, driving especially with a manual transmission (accellerate and stop), forms (enter a field, fill it in, repeat), youtube (get to end of a video, watch a new one), etc.
@@ -111,5 +111,5 @@ comments:
 </ul>
 </li>
 </ul>
-<h5>Key take-home points for me:</h5>
+<h2>Key take-home points for me:</h2>
 <p>User interactions with a site and site animations have rhythm, but that can't be conveyed with wireframes. I should consider some other method of conveying animation or timing (for instance animatics or storyboards) and the user's emotional response to those actions in my next design.</p>

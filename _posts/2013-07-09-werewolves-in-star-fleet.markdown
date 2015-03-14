@@ -18,14 +18,14 @@ date: !binary |-
 date_gmt: !binary |-
   MjAxMy0wNy0xMCAwMToxNjo1OSAtMDQwMA==
 categories:
-- Misc
+- Reading
 tags: []
 comments: []
 ---
 <p>There aren't enough scifi/fantasy crossovers. Think urban fantasy in a space opera setting, or perhaps...werewolves in star fleet. I was thinking of the latter the other day when I was wondering what effect space travel would have on lycanthropy (I don't remember how I got on that particular train of thought)--is it just Earth's moon, or will any full moon do? Could you avoid the effect altogether by staying out from between any moons and their nearest star? Anyway, I'm no author, but I'd like to see someone write that, and after searching a bit I'm disappointed that it doesn't seem to exist already (I did, however, find <a href="http://indyplanet.com/store/product_info.php?products_id=5949"><em>Nazi Werewolves from Outer Space</em></a>). I think there are a few interesting story possibilities...</p>
 <h2>Story 1:</h2>
 <p>The story universe's equivalent of Vulcans come to earth and set up an international space federation of some sort, but they insist that <em>all</em> of earth's sentient species be allowed to join--</p>
-<p style="text-align: left; padding-left: 30px;">"What do you mean, <em>all</em>? LIke, dolphins?"</p>
+<p style="text-align: left; padding-left: 30px;">"What do you mean, <em>all</em>? Like, dolphins?"</p>
 <p style="text-align: left; padding-left: 30px;">"Well, those too, if they want, but we were thinking of the humanoid creatures like werewolves and elves."</p>
 <p style="text-align: left; padding-left: 30px;">"Wait, <em>what‽</em>"</p>
 <p style="text-align: left;">Fairytale creatures cautiously come out from under their hills and whatnot, humans reel from the double revelation that not only are they not alone in the universe but they aren't even alone on their own planet. Prejudice on all sides, but eventually it fades into the background noise with all the diversity of a galactic civilization. Perhaps there is a realization that "you may be weird, but you're <em>our</em> kind of weird."</p>

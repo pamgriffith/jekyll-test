@@ -231,17 +231,21 @@ comments:
     MjAxMi0wMi0xMCAyMDo1MzoyNyAtMDUwMA==
   content: Glad to help!
 ---
-<p>Periodically I encounter some problem with html and css layouts that could be solved by adding a few extra presentational tags to the html source (like &lt;br/&gt; or text bullets in the case I'm about to describe), but there's no easy way to do it in CSS.  I almost always end up caving and doing it that way, but I like <a title="HTML5, CSS3, and the Great CSS-Off" href="http://www.pamgriffith.net/blog/html5-css3-and-the-great-css-off">flailing around and trying new things</a> first before giving up.  I feel like sharing the most recent example because I'm almost proud of it, and in some circumstances it might actually be the right thing to do.</p>
+<p>Periodically I encounter some problem with html and css layouts that could be solved by adding a few extra presentational tags to the html source (like &lt;br/&gt; or text bullets in the case I'm about to describe), but there's no easy way to do it in CSS.  I almost always end up caving and doing it that way, but I like <a title="HTML5, CSS3, and the Great CSS-Off" href="{% post_url 2010-03-16-html5-css3-and-the-great-css-off %}">flailing around and trying new things</a> first before giving up.  I feel like sharing the most recent example because I'm almost proud of it, and in some circumstances it might actually be the right thing to do.</p>
 <p>What I have is a list of links for a blog.  This is an excellent candidate for an unordered list, except that I want them presented like so:</p>
 <p style="text-align: center;">one - two - three</p>
 <p style="text-align: center;">four - five - six</p>
 <p style="text-align: center;">seven - eight</p>
 <p>The trick here is getting the dashes so they show up <strong>only in the middle of each line</strong>.  But there's no easy way to tell where the natural line breaks are, so I cant just have the first &lt;li&gt; per line not have a dash in front of it.  That means I'm probably going to need to insert some line breaks so I know which ones are at the beginning of a line, but I'd still rather not do it in the html.</p>
 <p>I ended up with this:</p>
-<pre><code class="css">.blogroll { text-align: center; }
+
+{% highlight css %}
+.blogroll { text-align: center; }
 .blogroll li { display: inline; padding: 0 6px; }
 .blogroll li + li:before { content: '-'; position: relative; left: -8px; }
-.blogroll li:nth-child(3n+1):before { content: '\a'; position: static; white-space: pre; }</code></pre>
+.blogroll li:nth-child(3n+1):before { content: '\a'; position: static; white-space: pre; }
+{% endhighlight %}
+
 <p>The first two lines just make the elements centered, inline, and separated a bit.  The third line puts a dash before all&lt;li&gt; elements that come after another &lt;li&gt; element--effectively everything but the very first in the list.  The fourth one is the magic: it uses a new css selector <a href="http://reference.sitepoint.com/css/pseudoclass-nthchild">nth-child</a> to select <strong>the element after every third element</strong> (that's the "3n+1" bit) and <strong>replaces the dash with a newline</strong> character (that's the "\a" bit).  Normally newline characters are just converted to spaces, but setting the white-space to "pre" makes the line actually wrap there.</p>
 <p>It almost works!  Unfortunately, there is a case it doesn't handle well.  If one of the items is too long, the lines will wrap before the third item and you end up with this:</p>
 <p style="text-align: center;">one - two  - three</p>

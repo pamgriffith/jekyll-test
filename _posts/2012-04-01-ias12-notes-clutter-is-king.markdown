@@ -21,12 +21,12 @@ categories:
 - Conference Notes
 - Information Architecture
 tags:
-- IA Summit 2012
+- IAS12
 - Organization
 - Psychology
 comments: []
 ---
-<p><em>This is part of a series of notes from the Information Architecture Summit from 2012. All posts will be tagged <a href="http://www.pamgriffith.net/blog/tag/ias12">ias12</a>. This talk was presented by Paris Buttfield-Addison and Jon Manning (<a href="https://twitter.com/#!/thesecretlab">@thesecretlab</a> on Twitter).</em></p>
+<p><em>This is part of a series of notes from the Information Architecture Summit from 2012. All posts will be tagged <a href="{{site.base_url}}/blog/tag/ias12">ias12</a>. This talk was presented by Paris Buttfield-Addison and Jon Manning (<a href="https://twitter.com/#!/thesecretlab">@thesecretlab</a> on Twitter).</em></p>
 <ul>
 <li>Piles vs files: research from the 80s on understanding software by looking at the way people manage their pysical offices and workspaces: documents, scraps of paper on desks, filing cabinets, etc.
 <ul>
@@ -117,5 +117,5 @@ comments: []
 </li>
 <li>Duplication of data--ad hoc organization doesn't solve that, but filing after the fact could</li>
 </ul>
-<h5>Key take-home points for me:</h5>
+<h2>Key take-home points for me:</h2>
 <p>I think the most interesting part of this presentation was not just that the applications I develop should allow people to organize things how they want, but that it might be possible to create a no-overhead filing system that symply emerges from the stuff being organized so there can be benefits of both piling and filing without any of the extra work. I love the example of iPhoto creating groups automatically using data embedded in the photos, and I'm going to think about how I do things like that in my future projects.</p>
