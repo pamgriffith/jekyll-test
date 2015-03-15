@@ -22,5 +22,4 @@ categories:
 tags: []
 comments: []
 ---
-<p>Please feel free to contact me below or at <a href="mailto:pam@pamgriffith.net">pam@pamgriffith.net</a> with questions or comments!</p>
-<p>[contact-form 1 "Contact form 1"]</p>
+{% include contact.html %}

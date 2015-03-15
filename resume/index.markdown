@@ -23,14 +23,13 @@ tags: []
 comments: []
 ---
 <p>I am a <strong>user experience designer</strong>. I excel at interaction design, wireframing, rapid mockups with web technologies, and usability testing.</p>
-<h5>Skills:</h5>
+<h2>Skills:</h2>
 <ul>
 <li><strong>User-centered design techniques</strong>, including
 <ul>
-<li>Participant observation, contextual analysis, and think-aloud</li>
-<li>Interviewing and data coding</li>
-<li>Qualitative and quantitative data analysis</li>
 <li>Interaction design using diagrams, storyboards, and prototypes</li>
+<li>Interviewing, usability testing, card sorting</li>
+<li>Qualitative and quantitative data analysis</li>
 </ul>
 </li>
 <li><strong>Rapid prototyping and testing </strong>with various tools, including
@@ -43,14 +42,14 @@ comments: []
 </ul>
 </li>
 </ul>
-<h5>Education:</h5>
+<h2>Education:</h2>
 <ul>
 <li><strong>MS in Human Computer Interaction</strong><br />
 Georgia Tech (2008)</li>
 <li><strong>BS in Cognitive Science</strong> with a Specialization in Human Computer Interaction<br />
 University of California, San Diego (2006)</li>
 </ul>
-<h5>Work Experience:</h5>
+<h2>Work Experience:</h2>
 <ul>
 <li><strong>Software Engineer at SRI International</strong><br />
 <em>August 2010-March 2015</em><br />
@@ -80,6 +79,7 @@ Customized storefront with CSS for customers, rewrote storefront application in 
 <em>Summer 2004</em><br />
 Used Photoshop to create themes for a PDA photo album.</li>
 </ul>
-<h4>Contact</h4>
-<p>Please feel free to contact me below or at <a href="mailto:pam@pamgriffith.net">pam@pamgriffith.net</a> with questions or comments!</p>
-<p>[contact-form 1 "Contact form 1"]</p>
+
+<h2>Contact</h2>
+
+{% include contact.html %}
