@@ -1,3 +1,16 @@
+%smalltext {
+    font-size: 14px;
+    font-size: 0.7777777778rem;
+}
+%standardmargin {
+    margin: 0 0 24px;
+    margin: 0 0 1.3333333333rem;
+}
+%smallpad {
+    padding: 6px;
+    padding: .3333333333rem;
+}
+
 /**
  * Screen reader and tab access only
  */
@@ -84,8 +97,7 @@ h6 {
 }
 
 p, embed, object, video, iframe, code, dl, ol, ul, blockquote, table {
-    margin: 0 0 24px;
-    margin: 0 0 1.3333333333rem;
+    @extend %standardmargin;
 }
 
 ol, ul {
@@ -107,16 +119,14 @@ video, img {
 }
 
 table {
-    font-size: 14px;
-    font-size: 0.7777777778rem;
+    @extend %smalltext;
 }
 thead {
     border-bottom: 1px solid $separator-color;
     th {
         vertical-align: bottom;
         text-align: left;
-        padding: 6px;
-        padding: .3333333333rem;
+        @extend %smallpad;
     }
 }
 tbody {
@@ -125,29 +135,24 @@ tbody {
     }
     td, th {
         vertical-align: top;
-        padding: 6px;
-        padding: .3333333333rem;
+        @extend %smallpad;
     }
 }
 
 code, pre {
-    font-size: 14px;
-    font-size: 0.7777777778rem;
+    @extend %smalltext;
     margin: 0;
     padding: 0;
 }
 
 figure {
-    font-size: 14px;
-    font-size: 0.7777777778rem;
-    margin: 0 0 24px;
-    margin: 0 0 1.3333333333rem;
+    @extend %smalltext;
+    @extend %standardmargin;
     font-style: italic;
 }
 
 .form-row {
-    margin: 0 0 24px;
-    margin: 0 0 1.3333333333rem;
+    @extend %standardmargin;
 }
 label {
     display: block;

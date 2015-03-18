@@ -3,10 +3,8 @@
  */
 .highlight {
     background: $grey-bg-light;
-    padding: 6px;
-    padding: .3333333333rem;
-    margin-bottom: 24px;
-    margin-bottom: 1.3333333333rem;
+    @extend %smallpad;
+    @extend %standardmargin;
 
     .c     { color: #998; font-style: italic } // Comment
     .err   { color: #a61717; background-color: #e3d2d2 } // Error
