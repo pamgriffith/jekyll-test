@@ -102,7 +102,7 @@ a {
     }
 }
 
-img {
+video, img {
     max-width: 100%;
 }
 
@@ -135,6 +135,14 @@ code, pre {
     font-size: 0.7777777778rem;
     margin: 0;
     padding: 0;
+}
+
+figure {
+    font-size: 14px;
+    font-size: 0.7777777778rem;
+    margin: 0 0 24px;
+    margin: 0 0 1.3333333333rem;
+    font-style: italic;
 }
 
 .form-row {

@@ -17,25 +17,32 @@ date: !binary |-
   MjAxMC0wMS0xMSAxMzoyMTowMyAtMDUwMA==
 date_gmt: !binary |-
   MjAxMC0wMS0xMSAyMToyMTowMyAtMDUwMA==
-categories:
-- Uncategorized
-tags: []
-comments: []
 ---
 <p>jsdate.js adds a format function to the javascript date object that works like <a href="http://php.net/manual/en/function.date.php">PHP date()</a>.  I created it because I routinely rewrite many of the functions in it like 12-hour date formatting every time I need date formatting in javascript and wanted a more general way to format dates. Since I frequently work with both javascript and PHP together and the PHP date formatting is pretty comprehensive, I decided to make those formatting options available to javascript.</p>
 <p>jsdate.js implements all of the PHP date formats except for timezone names and daylight savings, which I don't believe are possible to get out of a javascript object (If you know otherwise, please <a title="Contact" href="http://www.pamgriffith.net/contact">correct me</a>!)  For ease of reference, the relevant bits of the <a href="http://php.net/manual/en/function.date.php">PHP manual page</a> are duplicated at the bottom of the page, as well as in the full (non-minified) version of the file itself.</p>
 <p>Feel free to modify, add, and remove code, but please keep the attributions intact.  You may use jsdate on your commercial sites, just don't sell the file itself, please.  If you've got a better implementation of something, please <a title="Contact" href="http://www.pamgriffith.net/contact">let me know</a> and I'll put it in!</p>
+
 <p style="text-align: center;"><a class="download_button" href="http://www.pamgriffith.net/downloads/jsdate.zip">Download jsdate</a></p>
-<h5>Using jsdate.js</h5>
-<p>To use jsdate, include it in your file and create a date object.  Then call .format() on the date object with any combination of the formats that it implements (see the next section or refer to the <a href="http://php.net/manual/en/function.date.php">PHP manual page</a>) plus any other characters that you need.<br />
-<code>var dateObj = new Date();<br />
-var formatStr = 'F jS, Y'; // prints out as "January 11th, 2010"<br />
-var formattedDate = dateObj.format(formatStr);</code></p>
-<p>Note that the above example uses spaces and a comma in addition to the formatting letters.  You may also use other alphabetical characters, but if you need to use one of the letters reserved for a format you'll need to escape it with backslashes ('\\').  To use an actual backslash character, use 4 backslashes.  Unfortunately this is much more awkward in javascript than in PHP, where you can prevent it from interpreting things like \n, I'm trying to think of a better way to do it.<br />
-<code>var dateObj = new Date();<br />
-var formatStr = 'l, \\t\\h\\e jS \\o\\f F, Y'; // prints out as "Monday, the 11th of January, 2010"<br />
-var formattedDate = dateObj.format(formatStr);</code></p>
-<h5>Formats that jsdate implements</h5>
+<p style="text-align: center;"><a class="download_button" href="https://github.com/pamgriffith/JSDate">GitHub</a></p>
+
+<h2>Using jsdate.js</h2>
+<p>To use jsdate, include it in your file and create a date object.  Then call .format() on the date object with any combination of the formats that it implements (see the next section or refer to the <a href="http://php.net/manual/en/function.date.php">PHP manual page</a>) plus any other characters that you need.</p>
+
+{% highlight javascript %}
+var dateObj = new Date();
+var formatStr = 'F jS, Y'; // prints out as "January 11th, 2010"
+var formattedDate = dateObj.format(formatStr);
+{% endhighlight %}
+
+<p>Note that the above example uses spaces and a comma in addition to the formatting letters.  You may also use other alphabetical characters, but if you need to use one of the letters reserved for a format you'll need to escape it with backslashes ('\\').  To use an actual backslash character, use 4 backslashes.  Unfortunately this is much more awkward in javascript than in PHP, where you can prevent it from interpreting things like \n, I'm trying to think of a better way to do it.</p>
+
+{% highlight javascript %}
+var dateObj = new Date();
+var formatStr = 'l, \\t\\h\\e jS \\o\\f F, Y'; // prints out as "Monday, the 11th of January, 2010"
+var formattedDate = dateObj.format(formatStr);
+{% endhighlight %}
+
+<h2>Formats that jsdate implements</h2>
 <table>
 <tbody>
 <tr valign="middle">
