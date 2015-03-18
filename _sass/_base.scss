@@ -160,6 +160,14 @@ label {
 input, textarea {
     width: 100%;
 }
+input, textarea, button {
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    color: $text-color;
+    padding: 3px 6px;
+    box-sizing: border-box;
+}
 .honeypot {
     display: none;
 }

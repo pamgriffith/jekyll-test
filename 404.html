@@ -6,7 +6,11 @@ title: Page Not Found
 <p>The page you're looking for isn't here. Maybe one of these will help?</p>
 
 <h2>Search</h2>
-<iframe id="search-iframe" src="http://duckduckgo.com/search.html?site=pamgriffith.net&prefill=Search&width=auto" style="overflow:hidden;margin:0;padding:0;width:530px;height:40px;" frameborder="0"></iframe>
+<form method="get" action="https://www.google.com/search" class="searchbox">
+    <input type="hidden" value="site:pamgriffith.net" name="q" />
+    <input type="text" name="q" />
+    <div class="button"><button type="submit">Search</button></div>
+</form>
 
 <div class="columns">
 	<div class="half-col left-col">

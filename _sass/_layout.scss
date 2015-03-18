@@ -180,3 +180,24 @@ ul.tag-list {
         margin-right: .5rem;
     }
 }
+
+.searchbox {
+    display: table;
+    width: 100%;
+    box-sizing: border-box;
+
+    input, .button {
+        display: table-cell;
+        vertical-align: bottom;
+    }
+
+    input, button {
+        line-height: 1;
+        height: 36px;
+        height: 2rem;
+    }
+    
+    .button {
+        width: 1%;
+    }
+}
