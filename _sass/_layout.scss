@@ -201,3 +201,17 @@ ul.tag-list {
         width: 1%;
     }
 }
+
+.comment {
+    border-bottom: $separator;
+    @extend %standardmargin;
+
+    .comment-author {
+        font-weight: 800;
+    }
+
+    .comment-date {
+        color: $grey-color-light;
+        @extend %standardmargin;
+    }
+}
