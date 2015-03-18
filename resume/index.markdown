@@ -60,7 +60,7 @@ Wireframing and task flow design, css, javascript, html, and php (specifically w
 <li><strong>Web Programmer at Metaplace Inc.</strong><br />
 <em>June 2008-December 2009 and summer 2007</em><br />
 Designed, gathered user feedback on, and built a myriad of AJAX interactions, javascript and html dialogs, and PHP pages and web services.</li>
-<li><strong>Masters Project: <a title="Masters Project – Online collaborative 3d art" href="http://www.pamgriffith.net/portfolio/masters-project-online-collaborative-3d-art">Collaboration in 3d Art</a></strong><br />
+<li><strong>Masters Project: <a title="Masters Project – Online collaborative 3d art" href="{{site.base_url}}/portfolio/masters-project-online-collaborative-3d-art">Collaboration in 3d Art</a></strong><br />
 <em>September 2007-May 2008</em><br />
 Participated in and observed several online communities and conducted interviews with collaboration participants to determine how people work together (or fail to work together) online on artistic projects.</li>
 <li><strong>Student Research Assistantship with Dell and Georgia Tech</strong><br />
