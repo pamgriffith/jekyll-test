@@ -40,7 +40,7 @@ if (document.getElementsByClassName('demo-popup-link').length > 0) {
   requirejs(['jquery'], function ($) {
     // colorbox needs jquery defined first, loading async doesn't seem to work
     requirejs(['jquery.colorbox'], function (colorbox) {
-      loadCss('/css/colorbox/colorbox.css');
+      loadCss('/assets/css/colorbox/colorbox.css');
       $('.demo-popup-link').colorbox({iframe:true, width:"80%", height:"80%"});
     });
   });
