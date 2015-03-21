@@ -20,32 +20,12 @@
   </div>
 
   <footer class="entry-meta">
-    {% assign tags_content = '' %}
-    {% if include.post.tags.size > 0 %}
-        {% for tag in include.post.tags %}
-            {% if tag %}
-                {% capture tags_content_temp %}{{ tags_content }}<a href="/blog/tag/{{ tag }}/">{{ tag }}</a>{% if forloop.rindex0 > 1 %}{%if include.post.tags.size > 2 %}, {% endif %}{% elsif forloop.rindex0 == 1 %}{% if include.post.tags.size > 2 %}, and {% elsif include.post.tags.size == 2 %} and {% endif %}{% endif %}{% endcapture %}
-                {% assign tags_content = tags_content_temp %}
-            {% endif %}
-        {% endfor %}
-    {% endif %}
-
-    {% assign categories_content = '' %}
-    {% if include.post.categories.size > 0 %}
-        {% for tag in include.post.categories %}
-            {% if tag %}
-                {% capture categories_content_temp %}{{ categories_content }}<a href="/blog/category/{{ tag }}/">{{ tag }}</a>{% if forloop.rindex0 > 1 %}{%if include.post.categories.size > 2 %}, {% endif %}{% elsif forloop.rindex0 == 1 %}{% if include.post.categories.size > 2 %}, and {% elsif include.post.categories.size == 2 %} and {% endif %}{% endif %}{% endcapture %}
-                {% assign categories_content = categories_content_temp %}
-            {% endif %}
-        {% endfor %}
-    {% endif %}
-
     {% if include.post.categories.size > 0 and include.post.tags.size > 0 %}
-    Posted in {{ categories_content }} and tagged {{ tags_content }}.
+    Posted in {% include taglist.html tags=include.post.categories type='category' %} and tagged {% include taglist.html tags=include.post.tags type='tag' %}.
     {% elsif include.post.categories.size > 0 %}
-    Posted in {{ categories_content }}.
+    Posted in {% include taglist.html tags=include.post.categories type='category' %}.
     {% elsif include.post.tags.size > 0 %}
-    Tagged {{ tags_content }}.
+    Tagged {% include taglist.html tags=include.post.tags type='tag' %}.
     {% endif %}
   </footer>
 
