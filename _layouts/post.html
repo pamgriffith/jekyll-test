@@ -14,7 +14,7 @@ layout: default
 			{% endif %}
 		</div>
 		<div class="comment-date">
-			{{comment.date}}
+			<time class="entry-date" datetime="{{ comment.date | date: "%F" }}">{{ comment.date | date: "%B %-d, %Y" }}</time>
 		</div>
 		<div class="comment-content">
 			{{comment.content | markdownify}}
