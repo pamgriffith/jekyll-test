@@ -28,14 +28,14 @@ $grey-bg-light:    #ededed;
 $link-color:       #0072bc;
 $link-color-hover: #00a0d7;
 
-// Width of the content area
-$content-width:    800px;
-
-$medium-wide:      600px;
+$separator: 4px double $separator-color;
 
 $base-url: '{{site.baseurl}}';
 
-$separator: 4px double $separator-color;
+
+
+// Media query widths
+$medium-wide:      600px;
 
 
 

@@ -33,11 +33,11 @@
 }
 @font-face {
     font-family: 'BrixSlab';
-    src: url('BrixSlab-MediumItalic-webfont.eot');
-    src: url('BrixSlab-MediumItalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('BrixSlab-MediumItalic-webfont.woff') format('woff'),
-         url('BrixSlab-MediumItalic-webfont.ttf') format('truetype'),
-         url('BrixSlab-MediumItalic-webfont.svg#BrixSlabRegularItalic') format('svg');
+    src: url('#{$base-url}/assets/fonts/BrixSlab-MediumItalic-webfont.eot');
+    src: url('#{$base-url}/assets/fonts/BrixSlab-MediumItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{$base-url}/assets/fonts/BrixSlab-MediumItalic-webfont.woff') format('woff'),
+         url('#{$base-url}/assets/fonts/BrixSlab-MediumItalic-webfont.ttf') format('truetype'),
+         url('#{$base-url}/assets/fonts/BrixSlab-MediumItalic-webfont.svg#BrixSlabRegularItalic') format('svg');
     font-weight: 700;
     font-style: italic;
 }
