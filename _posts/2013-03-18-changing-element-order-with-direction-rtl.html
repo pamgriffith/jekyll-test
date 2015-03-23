@@ -9,9 +9,9 @@ tags:
 comments: []
 ---
 <p>I was recently in a position where I had to build a responsive design that had an image on the left of some text that was centered vertically in the image:</p>
-<p><img src="{{site.base_url}}/uploads/2013/02/rtl-margin.png" alt="Wireframe with image on left and text on right" /></a></p>
+<p><img src="{{site.base_url}}/uploads/2013/02/rtl-margin.png" alt="Wireframe with image on left and text on right" /></p>
 <p>But the small-screen version had the image below the text:</p>
-<p><img src="{{site.base_url}}/uploads/2013/02/rtl-mobile.png" alt="Wireframe of text above an image" /></a></p>
+<p><img src="{{site.base_url}}/uploads/2013/02/rtl-mobile.png" alt="Wireframe of text above an image" /></p>
 <p>Since the design was responsive, not a separate mobile site, I could either write the html so the image was before or after the text, but I couldn't have both. It's a lot easier to adjust things to the left or the right than it is to change whether they appear before or after something, so I ended up with the image after the text in the html:</p>
 
 {% highlight html %}
