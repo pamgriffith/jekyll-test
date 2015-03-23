@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 gem 'jekyll'
 gem 'jekyll-archives'
-gem 'wdm', '~> 0.1.0' if Gem.win_platform?
+gem 'wdm', platforms: [:mingw, :mswin, :x64_mingw]
