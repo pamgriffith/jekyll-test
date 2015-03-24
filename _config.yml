@@ -2,7 +2,7 @@
 title: Pam Griffith
 email: pam@pamgriffith.net
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://pam-test.owlfolio.org" # the base hostname & protocol for your site
+url: "http://pamgriffith.net" # the base hostname & protocol for your site
 
 encoding: utf-8
 permalink: "/blog/:title"
