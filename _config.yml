@@ -33,3 +33,8 @@ jekyll-archives:
     # day: '/:year/:month/:day/'
     tag: '/blog/tag/:name/'
     category: '/blog/category/:name/'
+
+exclude:
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - 'README.md'
