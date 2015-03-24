@@ -20,7 +20,7 @@ title: Page Not Found
 		{% for tag in sortedcats %}
 			{% assign t = tag | first %}
 			{% assign posts = tag | last %}
-			<li><a href="{{site.baseurl}}/blog/category/{{t|replace:' ','-'}}">{{t}}</a></li>
+			<li><a href="{{site.baseurl}}/blog/category/{{t|downcase|replace:' ','-'}}">{{t}}</a></li>
 		{% endfor %}
 		</ul>
 	</div>
@@ -32,7 +32,7 @@ title: Page Not Found
 		{% for tag in sortedtags %}
 			{% assign t = tag | first %}
 			{% assign posts = tag | last %}
-			<li><a href="{{site.baseurl}}/blog/tag/{{t|replace:' ','-'}}">{{t}}</a></li>
+			<li><a href="{{site.baseurl}}/blog/tag/{{t|downcase|replace:' ','-'}}">{{t}}</a></li>
 		{% endfor %}
 		</ul>
 	</div>
